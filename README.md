@@ -57,12 +57,12 @@ You can train any of the three models using their corresponding training scripts
                     width="300">
         </td>
         <td>
-            <img src="example_outputs/diffusion.gif" 
+            <img src="example_outputs/Diffusion.gif" 
                     alt="Diffusion Model Generated" 
                     width="300">
         </td>
         <td>
-            <img src="example_outputs/diffusion_w_labels.gif" 
+            <img src="example_outputs/Diffusion_w_labels.gif" 
                     alt="Diffusion Model With Labels Generated" 
                     width="300">
         </td>
