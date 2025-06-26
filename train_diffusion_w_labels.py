@@ -242,7 +242,7 @@ class PixelArtDiffusion:
             setattr(self.scheduler, attr_name, getattr(self.scheduler, attr_name).to(device))
         self.optimizer = optim.AdamW(self.model.parameters(), lr=1e-4)
     
-        self.shapes = ['circle', 'rectangle', 'line', 'face']
+        self.shapes = ['rectangle', 'circle', 'line', 'face']
         self.colours = ['red', 'green', 'blue', 'yellow', 'magenta', 'cyan', 'orange', 'purple']
 
     def train_step(self, batch, shapes=None, colours=None):
@@ -389,7 +389,7 @@ def main():
         print(f'Epoch [{epoch+1}/{num_epochs}] Loss: {avg_loss:.6f}')
         
         # Save samples
-        if (epoch + 1) % 50 == 0 or epoch == 0:
+        if (epoch + 1) % 20 == 0 or epoch == 0:
             diffusion.save_samples(epoch + 1, save_dir=save_directory)
     
     print("training complete")

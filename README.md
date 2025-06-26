@@ -37,3 +37,68 @@ You can train any of the three models using their corresponding training scripts
 - ```train_gan.py```: Output is stored in the ```samples_gan/``` directory
 - ```train_diffusion```: Output is stored in the ```samples_diffusion/no_labels/``` directory
 - ```train_diffusion_w_labels```: Output is stored in the ```samples_diffusion/w_labels/``` directory
+## Example Outputs
+<table>
+    <tr>
+        <td align="center">
+            <h3>GAN Network Generated</h3>
+        </td>
+        <td align="center">
+            <h3>Diffusion Model Generated</h3>
+        </td>
+        <td align="center">
+            <h3>Diffusion Model With Labels Generated</h3>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="example_outputs/GAN.gif" 
+                    alt="GAN Network Generated" 
+                    width="300">
+        </td>
+        <td>
+            <img src="example_outputs/diffusion.gif" 
+                    alt="Diffusion Model Generated" 
+                    width="300">
+        </td>
+        <td>
+            <img src="example_outputs/diffusion_w_labels.gif" 
+                    alt="Diffusion Model With Labels Generated" 
+                    width="300">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="example_outputs/gan_examples/epoch_0020.png"
+                    alt="GAN Network Generated" 
+                    width="300">
+        </td>
+        <td>
+            <img src="example_outputs/diff_examples/epoch_0020.png"
+                    alt="Diffusion Model Generated" 
+                    width="300">
+        </td>
+        <td>
+            <img src="example_outputs/diff_w_labels_examples/epoch_0020.png"
+                    alt="Diffusion Model With Labels Generated" 
+                    width="300">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="example_outputs/gan_examples/epoch_1000.png"
+                    alt="GAN Network Generated" 
+                    width="300">
+        </td>
+        <td>
+            <img src="example_outputs/diff_examples/epoch_0300.png"
+                    alt="Diffusion Model Generated" 
+                    width="300">
+        </td>
+        <td>
+            <img src="example_outputs/diff_w_labels_examples/epoch_0300.png"
+                    alt="Diffusion Model With Labels Generated" 
+                    width="300">
+        </td>
+    </tr>
+</table>
